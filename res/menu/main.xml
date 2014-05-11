@@ -4,9 +4,21 @@
     tools:context="kr.ac.kumoh.ce.MainActivity" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/reset"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/reset"
         app:showAsAction="never"/>
+    <item 
+        android:id="@+id/locate_find" 
+        android:orderInCategory="100"
+        app:showAsAction="never" android:title="@string/locate_find"/>
+    <item 
+        android:id="@+id/overlay_item_set" 
+        android:orderInCategory="100"
+        app:showAsAction="never" android:title="@string/overlay_item_set"/>
+    <item 
+        android:id="@+id/draw_line" 
+        android:orderInCategory="100"
+        app:showAsAction="never" android:title="@string/draw_line"/>
 
 </menu>

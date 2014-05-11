@@ -19,14 +19,16 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.ListView;
+
 import com.nhn.android.maps.NMapOverlayItem;
 import com.nhn.android.maps.overlay.NMapPOIitem;
 import com.nhn.android.mapviewer.overlay.NMapResourceProvider;
+
 import kr.ac.kumoh.ce.R;
 
 /**
  * Wrapper class to provider resources on map view.
- * ¤±¤¤¤·¤±¤¤¤·
+ * 
  * @author kyjkim
  */
 public class NMapViewerResourceProvider extends NMapResourceProvider implements
@@ -431,6 +433,7 @@ public class NMapViewerResourceProvider extends NMapResourceProvider implements
 	}
 
 	/**
+	 * ë§í’ì„ ì˜ í…ìŠ¤íŠ¸ ìƒ‰ìƒì„ customizeí•œë‹¤.
 	 *  
 	 * @param item
 	 * @return

@@ -40,7 +40,7 @@ public class NMapPOIflagType {
 	public static final int CUSTOM_BASE = NUMBER_END;
 	public static final int CUSTOM_END = CUSTOM_BASE + MAX_CUSTOM_COUNT;
 
-	// Clickable callout
+	// Clickable callout에 보여지는 화살표 
 	public static final int CLICKABLE_ARROW = CUSTOM_END + 1;
 
 	public static boolean isBoundsCentered(int markerId) {
